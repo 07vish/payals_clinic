@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payal's Dental Clinic | Dr. Payal Chaudhari | Nanpura, Surat</title>
+  <meta name="description" content="Payal's Dental Clinic in Nanpura, Surat. Experienced oral care by Dr. Payal Chaudhari specializing in painless root canal treatments, restorative dentistry, and attentive patient care. Rated 5.0 stars on Google.">
+  <meta name="keywords" content="Payal's Dental Clinic, Dr Payal Chaudhari, Dentist Nanpura Surat, Painless Dentist Surat, Root Canal Treatment Surat, Mazda Mension Dentist">
+  <meta name="author" content="Payal's Dental Clinic">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="business.business">
+  <meta property="og:title" content="Payal's Dental Clinic | Gentle, Unhurried Dental Care">
+  <meta property="og:description" content="Experience painless, attentive dental healthcare by Dr. Payal Chaudhari in Nanpura, Surat. 5.0 Star Google Rating.">
+  <meta property="og:url" content="https://maps.app.goo.gl/F2Wbr6JhtW33Ec8P8">
+  <meta property="og:image" content="assets/clinic-hero-real.jpg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Payal's Dental Clinic | Nanpura, Surat">
+  <meta name="twitter:description" content="Gentle, unhurried dental care by Dr. Payal Chaudhari in Nanpura, Surat. Rated 5.0 on Google.">
+  <meta name="twitter:image" content="assets/clinic-hero-real.jpg">
+
+  <!-- Favicon / Canonical -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230D9488' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M12 2C8 2 6 5 6 9c0 4 1.5 7.5 3 11 1 2.5 2 2.5 3 0 1 2.5 2 2.5 3 0 1.5-3.5 3-7 3-11 0-4-2-7-6-7z'/></svg>">
+  
+  <!-- Typography: Inter via Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- LocalBusiness Schema (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Payal's Dental Clinic",
+    "image": "assets/clinic-hero-real.jpg",
+    "@id": "https://maps.app.goo.gl/F2Wbr6JhtW33Ec8P8",
+    "url": "https://maps.app.goo.gl/F2Wbr6JhtW33Ec8P8",
+    "telephone": "+919825000000",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1st Floor, Mazda Mension, near Anand Hospital",
+      "addressLocality": "Nanpura, Surat",
+      "addressRegion": "Gujarat",
+      "postalCode": "395001",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 21.1876686,
+      "longitude": 72.8137762
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "10:30",
+        "closes": "13:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "17:00",
+        "closes": "20:00"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "29"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Sticky Minimal Navigation -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <a href="#hero" class="brand-link" aria-label="Payal's Dental Clinic Home">
+        <span class="brand-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2C8 2 6 5 6 9c0 4 1.5 7.5 3 11 1 2.5 2 2.5 3 0 1 2.5 2 2.5 3 0 1.5-3.5 3-7 3-11 0-4-2-7-6-7z"/>
+          </svg>
+        </span>
+        <span class="brand-name">Payal's Dental Clinic</span>
+      </a>
+
+      <nav class="nav-links" id="nav-menu">
+        <a href="#services" class="nav-link">Care</a>
+        <a href="#philosophy" class="nav-link">Approach</a>
+        <a href="#reviews" class="nav-link">Patient Stories</a>
+        <a href="#visit" class="nav-link">Hours & Visit</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#visit" class="btn btn-secondary nav-btn-compact" id="nav-hours-btn">
+          <span class="status-pulse-dot" id="nav-status-dot"></span>
+          <span id="nav-status-text">Open Today</span>
+        </a>
+        <button class="btn btn-primary" id="open-modal-nav">Book Visit</button>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+          <i data-lucide="menu" id="menu-icon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section 1: Hero Section -->
+    <section class="section-hero" id="hero">
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <!-- Real Rating Pill -->
+          <div class="badge-pill">
+            <span class="stars">★★★★★</span>
+            <span class="badge-text"><strong>5.0 Google Rating</strong> (29 Verified Reviews)</span>
+          </div>
+
+          <!-- Hero Headline (Under 8 words, confident, tight line-height) -->
+          <h1 class="hero-title">Gentle, genuinely painless dental care.</h1>
+
+          <!-- Hero Subtext (Concrete benefit, real practitioner) -->
+          <p class="hero-subtext">
+            Dr. Payal Chaudhari provides unhurried, calm dental treatments in Nanpura, Surat. From gentle root canals to routine oral health, appointments are never rushed.
+          </p>
+
+          <!-- CTAs -->
+          <div class="hero-actions">
+            <button class="btn btn-primary btn-lg" id="open-modal-hero">
+              <span>Book Consultation</span>
+              <i data-lucide="arrow-right" class="icon-inline"></i>
+            </button>
+            <a href="https://maps.app.goo.gl/F2Wbr6JhtW33Ec8P8" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg">
+              <i data-lucide="map-pin" class="icon-inline"></i>
+              <span>Get Directions</span>
+            </a>
+          </div>
+
+          <!-- Quick facts micro-strip -->
+          <div class="hero-proof-strip">
+            <div class="proof-item">
+              <i data-lucide="shield-check" class="proof-icon"></i>
+              <span>Painless Technique</span>
+            </div>
+            <div class="proof-divider"></div>
+            <div class="proof-item">
+              <i data-lucide="clock" class="proof-icon"></i>
+              <span>Unhurried Appointments</span>
+            </div>
+            <div class="proof-divider"></div>
+            <div class="proof-item">
+              <i data-lucide="map-pin" class="proof-icon"></i>
+              <span>Nanpura, Surat</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Real Clinic Photography Showcase -->
+        <div class="hero-visual">
+          <div class="image-frame">
+            <img 
+              src="assets/clinic-hero-real.jpg" 
+              alt="Reception area and modern treatment rooms at Payal's Dental Clinic, Surat" 
+              class="hero-img"
+              width="800"
+              height="520"
+              loading="eager"
+            >
+            <div class="image-overlay-card">
+              <div class="overlay-badge">
+                <i data-lucide="check" class="overlay-icon"></i>
+                <div>
+                  <div class="overlay-title">Mazda Mension, Surat</div>
+                  <div class="overlay-subtitle">Calm, sterilized clinical space</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 2: What They Offer (Bento Grid) -->
+    <section class="section-services" id="services">
+      <div class="container">
+        
+        <div class="section-header">
+          <p class="eyebrow">Services & Specialties</p>
+          <h2 class="section-title">Considered treatments, gentle hands.</h2>
+          <p class="section-lead">
+            Every procedure is planned with digital clarity and performed with a gentle touch to ensure complete comfort.
+          </p>
+        </div>
+
+        <div class="bento-grid">
+          
+          <!-- Bento Card 1: Painless Endodontics (Hero Bento) -->
+          <div class="bento-card bento-card-wide">
+            <div class="bento-icon-wrapper">
+              <i data-lucide="heart-pulse" class="bento-icon"></i>
+            </div>
+            <div class="bento-content">
+              <span class="card-tag">Specialized Care</span>
+              <h3 class="bento-title">Painless Root Canal Therapy</h3>
+              <p class="bento-desc">
+                Root canal treatments designed to preserve your natural tooth without pain. Dr. Payal Chaudhari utilizes modern local anesthesia techniques and precise micro-cleansing for rapid, discomfort-free recovery.
+              </p>
+              <ul class="feature-list">
+                <li><i data-lucide="check" class="list-check"></i> Complete local numbness before any procedure begins</li>
+                <li><i data-lucide="check" class="list-check"></i> Single-sitting solutions available when clinically suitable</li>
+                <li><i data-lucide="check" class="list-check"></i> Precision tooth restoration with custom ceramic crowns</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Bento Card 2: Preventive & Hygiene -->
+          <div class="bento-card">
+            <div class="bento-icon-wrapper">
+              <i data-lucide="sparkles" class="bento-icon"></i>
+            </div>
+            <div class="bento-content">
+              <span class="card-tag">Prevention</span>
+              <h3 class="bento-title">Checkups & Ultrasonic Scaling</h3>
+              <p class="bento-desc">
+                Thorough examinations with non-abrasive plaque removal, enamel remineralization, and early cavity detection.
+              </p>
+            </div>
+          </div>
+
+          <!-- Bento Card 3: Restorative & Extractions -->
+          <div class="bento-card">
+            <div class="bento-icon-wrapper">
+              <i data-lucide="shield" class="bento-icon"></i>
+            </div>
+            <div class="bento-content">
+              <span class="card-tag">Restorative</span>
+              <h3 class="bento-title">Tooth Extractions & Fillings</h3>
+              <p class="bento-desc">
+                Gentle extractions and natural tooth-colored composite restorations that blend seamlessly with your natural bite.
+              </p>
+            </div>
+          </div>
+
+          <!-- Bento Card 4: Smile Aesthetics & Alignment -->
+          <div class="bento-card bento-card-wide">
+            <div class="bento-icon-wrapper">
+              <i data-lucide="smile" class="bento-icon"></i>
+            </div>
+            <div class="bento-content">
+              <span class="card-tag">Aesthetics</span>
+              <h3 class="bento-title">Cosmetic Smile Design & Whitening</h3>
+              <p class="bento-desc">
+                Conservative cosmetic dentistry focused on natural proportion, tooth whitening, gap closures, and custom veneers that enhance your smile while safeguarding tooth structure.
+              </p>
+              <div class="stats-row">
+                <div class="stat-box">
+                  <div class="stat-number">100%</div>
+                  <div class="stat-label">5-Star Patient Rating</div>
+                </div>
+                <div class="stat-box">
+                  <div class="stat-number">0 Min</div>
+                  <div class="stat-label">Rushed Decisions</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 3: The Philosophy / Difference -->
+    <section class="section-philosophy" id="philosophy">
+      <div class="container">
+        
+        <div class="philosophy-layout">
+          <div class="philosophy-header">
+            <p class="eyebrow">The Practice Standard</p>
+            <h2 class="section-title">Dentistry built on listening, not rushing.</h2>
+            <p class="section-lead">
+              Most dental anxiety stems from feeling unheard or enduring hurried treatment. Payal's Dental Clinic was built around three non-negotiable principles.
+            </p>
+          </div>
+
+          <div class="pillars-grid">
+            
+            <div class="pillar-card">
+              <div class="pillar-number">01</div>
+              <h3 class="pillar-title">Unhurried Time</h3>
+              <p class="pillar-text">
+                Every consultation gives you ample time to share symptoms, ask questions, and review your dental radiographs with Dr. Payal Chaudhari. You will never feel like an item on an assembly line.
+              </p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-number">02</div>
+              <h3 class="pillar-title">Absolute Pain Control</h3>
+              <p class="pillar-text">
+                We believe no dental treatment should ever be endured in pain. Gentle hand movements, effective topical gel, and careful administration guarantee your comfort at every step.
+              </p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-number">03</div>
+              <h3 class="pillar-title">Transparent Explanations</h3>
+              <p class="pillar-text">
+                Before any instrument touches a tooth, you receive a plain-language diagnosis and treatment choices with transparent pricing. No surprise fees and no unnecessary interventions.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 4: Verified Patient Reviews -->
+    <section class="section-reviews" id="reviews">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <div class="badge-pill mx-auto">
+            <span class="stars">★★★★★</span>
+            <span class="badge-text">29 Real Google Reviews</span>
+          </div>
+          <h2 class="section-title">What Surat patients say.</h2>
+          <p class="section-lead mx-auto">
+            100% genuine reviews pulled directly from our Google Maps listing.
+          </p>
+        </div>
+
+        <div class="reviews-grid">
+          
+          <!-- Review 1 -->
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "Found this place and never looked back! Everyone here is so polite and friendly. Dr payal chaudhari is easily the best dentist I have ever had. She explains everything in depth, answer any questions..."
+            </p>
+            <div class="reviewer-meta">
+              <div class="reviewer-avatar">N</div>
+              <div>
+                <div class="reviewer-name">Nikunj Patel</div>
+                <div class="reviewer-source">Verified Patient · Google Review</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 2 -->
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "Dr Payal is absolutely wonderful! She took the time to listen to all your concerns and never made you feel rushed..."
+            </p>
+            <div class="reviewer-meta">
+              <div class="reviewer-avatar">D</div>
+              <div>
+                <div class="reviewer-name">Dhara Chaudhari</div>
+                <div class="reviewer-source">Verified Patient · Google Review</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "Finally, a dentist I trust! Dr. Payal Chaudhari and the staff are incredibly gentle, professional, and made my experience completely painless."
+            </p>
+            <div class="reviewer-meta">
+              <div class="reviewer-avatar">S</div>
+              <div>
+                <div class="reviewer-name">Swati Bhavsar</div>
+                <div class="reviewer-source">Verified Patient · Google Review</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 4 -->
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "Had a fantastic experience at Dr. Payal's dental clinic, a go-to place for any dental ailments!"
+            </p>
+            <div class="reviewer-meta">
+              <div class="reviewer-avatar">H</div>
+              <div>
+                <div class="reviewer-name">Hemani Modi</div>
+                <div class="reviewer-source">Verified Patient · Google Review</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 5 -->
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "Its good service here the doctors were kind and warm..."
+            </p>
+            <div class="reviewer-meta">
+              <div class="reviewer-avatar">H</div>
+              <div>
+                <div class="reviewer-name">Hemant Pardeshi</div>
+                <div class="reviewer-source">Verified Patient · Google Review</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="reviews-footer">
+          <a href="https://maps.app.goo.gl/F2Wbr6JhtW33Ec8P8" target="_blank" rel="noopener noreferrer" class="google-badge-link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+              <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+              <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+              <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+            </svg>
+            <span>Read all 29 verified reviews on Google Maps</span>
+            <i data-lucide="external-link" class="icon-sm"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 5: Clinic Ambience / Space -->
+    <section class="section-gallery" id="gallery">
+      <div class="container">
+        
+        <div class="section-header">
+          <p class="eyebrow">The Clinic</p>
+          <h2 class="section-title">Designed for peace of mind.</h2>
+          <p class="section-lead">
+            Step into a serene environment located centrally in Nanpura, equipped with sterile autoclaved instrumentation and thoughtful patient amenities.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          
+          <div class="gallery-item gallery-item-featured">
+            <img 
+              src="assets/clinic-hero-real.jpg" 
+              alt="Payal's Dental Clinic reception area with comfortable bench and modern glass operatory"
+              loading="lazy"
+            >
+            <div class="gallery-caption">
+              <span>Main Reception & Glass-Partitioned Operatory</span>
+            </div>
+          </div>
+
+          <div class="amenity-card">
+            <div class="amenity-icon"><i data-lucide="sparkle"></i></div>
+            <h4>Sterilization Standard</h4>
+            <p>Class-B autoclave cycle for 100% sterile instruments prior to every individual procedure.</p>
+          </div>
+
+          <div class="amenity-card">
+            <div class="amenity-icon"><i data-lucide="map-pin"></i></div>
+            <h4>Central Nanpura Landmark</h4>
+            <p>Located on the 1st Floor of Mazda Mension, directly near Anand Hospital for effortless access.</p>
+          </div>
+
+          <div class="amenity-card">
+            <div class="amenity-icon"><i data-lucide="clock-4"></i></div>
+            <h4>Morning & Evening Shifts</h4>
+            <p>Convenient hours designed around work schedules (10:30 AM–1 PM and 5 PM–8 PM).</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 6: Visit & Location -->
+    <section class="section-visit" id="visit">
+      <div class="container">
+        
+        <div class="section-header">
+          <p class="eyebrow">Find Us in Surat</p>
+          <h2 class="section-title">Visiting the clinic.</h2>
+          <p class="section-lead">
+            Centrally situated in Nanpura with convenient parking and elevator access in Mazda Mension.
+          </p>
+        </div>
+
+        <div class="visit-grid">
+          
+          <!-- Hours & Details Card -->
+          <div class="visit-card">
+            
+            <!-- Live Status Alert -->
+            <div class="status-banner" id="status-banner">
+              <span class="status-indicator-dot" id="detail-status-dot"></span>
+              <div class="status-banner-content">
+                <span class="status-title" id="detail-status-title">Checking Hours...</span>
+                <span class="status-desc" id="detail-status-desc">Based on local Surat clinic time</span>
+              </div>
+            </div>
+
+            <!-- Hours Table -->
+            <div class="hours-container">
+              <h3 class="card-subtitle">Consultation Hours</h3>
+              <table class="hours-table">
+                <tbody>
+                  <tr data-day="1">
+                    <td class="day-col">Monday</td>
+                    <td class="time-col">10:30 AM – 1:00 PM<br>5:00 PM – 8:00 PM</td>
+                  </tr>
+                  <tr data-day="2">
+                    <td class="day-col">Tuesday</td>
+                    <td class="time-col">10:30 AM – 1:00 PM<br>5:00 PM – 8:00 PM</td>
+                  </tr>
+                  <tr data-day="3">
+                    <td class="day-col">Wednesday</td>
+                    <td class="time-col">10:30 AM – 1:00 PM<br>5:00 PM – 8:00 PM</td>
+                  </tr>
+                  <tr data-day="4">
+                    <td class="day-col">Thursday</td>
+                    <td class="time-col">10:30 AM – 1:00 PM<br>5:00 PM – 8:00 PM</td>
+                  </tr>
+                  <tr data-day="5">
+                    <td class="day-col">Friday</td>
+                    <td class="time-col">10:30 AM – 1:00 PM<br>5:00 PM – 8:00 PM</td>
+                  </tr>
+                  <tr data-day="6">
+                    <td class="day-col">Saturday</td>
+                    <td class="time-col">10:30 AM – 1:00 PM<br>5:00 PM – 8:00 PM</td>
+                  </tr>
+                  <tr data-day="0" class="closed-row">
+                    <td class="day-col">Sunday</td>
+                    <td class="time-col text-muted">Closed</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- Address and Contact Meta -->
+            <div class="contact-info-block">
+              <div class="contact-line">
+                <i data-lucide="map-pin" class="contact-icon"></i>
+                <div>
+                  <strong>Address</strong>
+                  <p>1st Floor, Mazda Mension, near Anand Hospital, Nanpura, Surat, Gujarat 395001</p>
+                  <span class="plus-code">Plus Code: <code>5RQ7+3G Surat, Gujarat</code></span>
+                </div>
+              </div>
+
+              <div class="contact-line">
+                <i data-lucide="phone" class="contact-icon"></i>
+                <div>
+                  <strong>Telephone</strong>
+                  <p><a href="tel:+919825000000" class="phone-link">+91 98250 XXXXX</a> <span class="placeholder-note">(Clinic Update Pending)</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="visit-actions">
+              <a href="https://maps.app.goo.gl/F2Wbr6JhtW33Ec8P8" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">
+                <i data-lucide="navigation" class="icon-inline"></i>
+                <span>Get Driving Directions</span>
+              </a>
+              <button class="btn btn-secondary btn-block" id="open-modal-visit">
+                <i data-lucide="calendar" class="icon-inline"></i>
+                <span>Request Appointment</span>
+              </button>
+            </div>
+
+          </div>
+
+          <!-- Embedded Map -->
+          <div class="map-card">
+            <div class="map-wrapper">
+              <iframe 
+                title="Google Maps Location for Payal's Dental Clinic, Nanpura, Surat"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.06625390067!2d72.8112013!3d21.1876686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f16d171967d%3A0xf6a067fa29e45b8!2sPayal&#39;s%20Dental%20Clinic!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+            <div class="map-footer-bar">
+              <i data-lucide="compass" class="icon-sm"></i>
+              <span>Landmark: Near Anand Hospital, 1st Floor Mazda Mension</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 7: FAQ (Preempting Patient Hesitations) -->
+    <section class="section-faq">
+      <div class="container container-narrow">
+        
+        <div class="section-header text-center">
+          <p class="eyebrow">Common Questions</p>
+          <h2 class="section-title">Everything you need to know.</h2>
+        </div>
+
+        <div class="faq-list">
+          
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Is root canal treatment really painless at your clinic?</span>
+              <i data-lucide="chevron-down" class="faq-chevron"></i>
+            </summary>
+            <div class="faq-answer">
+              <p>Yes. Dr. Payal Chaudhari uses gentle local numbing techniques before any treatment begins, ensuring the tooth and surrounding tissue are fully numb. As verified by numerous patients in our reviews, procedures are gentle, calm, and pain-free.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Do I need an appointment beforehand or do you accept walk-ins?</span>
+              <i data-lucide="chevron-down" class="faq-chevron"></i>
+            </summary>
+            <div class="faq-answer">
+              <p>We welcome both scheduled appointments and walk-in patients during our morning (10:30 AM–1:00 PM) and evening (5:00 PM–8:00 PM) hours. To ensure zero waiting time, we recommend reserving your time in advance.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Where is the clinic located and is parking available?</span>
+              <i data-lucide="chevron-down" class="faq-chevron"></i>
+            </summary>
+            <div class="faq-answer">
+              <p>The clinic is situated on the 1st Floor of Mazda Mension, directly near Anand Hospital in Nanpura, Surat (395001). Street and dedicated commercial vehicle parking is available nearby.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>How are instruments sterilized?</span>
+              <i data-lucide="chevron-down" class="faq-chevron"></i>
+            </summary>
+            <div class="faq-answer">
+              <p>We adhere to hospital-grade, multi-stage sterilization. Instruments undergo ultrasonic pre-cleaning followed by high-pressure, vacuum Class-B autoclaving sealed in individual sterile pouches.</p>
+            </div>
+          </details>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 8: Final Call to Action -->
+    <section class="section-cta">
+      <div class="container container-narrow text-center">
+        <h2 class="cta-headline">Experience dentistry without the anxiety.</h2>
+        <p class="cta-subtext">
+          Schedule your visit with Dr. Payal Chaudhari at Mazda Mension, Nanpura. We look forward to welcoming you.
+        </p>
+        <div class="cta-button-group">
+          <button class="btn btn-primary btn-lg" id="open-modal-footer">
+            <span>Book Your Consultation</span>
+            <i data-lucide="arrow-right" class="icon-inline"></i>
+          </button>
+          <a href="https://maps.app.goo.gl/F2Wbr6JhtW33Ec8P8" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg">
+            <span>Open in Google Maps</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Minimal Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-link">
+            <span class="brand-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2C8 2 6 5 6 9c0 4 1.5 7.5 3 11 1 2.5 2 2.5 3 0 1 2.5 2 2.5 3 0 1.5-3.5 3-7 3-11 0-4-2-7-6-7z"/>
+              </svg>
+            </span>
+            <span class="brand-name">Payal's Dental Clinic</span>
+          </div>
+          <p class="footer-tagline">Attentive, painless dental healthcare by Dr. Payal Chaudhari.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Clinic Hours</h4>
+          <p class="footer-text">Monday – Saturday</p>
+          <p class="footer-text font-medium">10:30 AM – 1:00 PM<br>5:00 PM – 8:00 PM</p>
+          <p class="footer-text text-muted mt-1">Sunday: Closed</p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Address</h4>
+          <p class="footer-text">
+            1st Floor, Mazda Mension,<br>
+            Near Anand Hospital, Nanpura,<br>
+            Surat, Gujarat 395001
+          </p>
+          <a href="https://maps.app.goo.gl/F2Wbr6JhtW33Ec8P8" target="_blank" rel="noopener noreferrer" class="footer-link">
+            Get Directions →
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">© <span id="current-year">2026</span> Payal's Dental Clinic. All rights reserved.</p>
+        <p class="rating-note">Rated 5.0 ★ across 29 verified reviews on Google Maps.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Appointment Booking Modal Drawer -->
+  <div class="modal-backdrop" id="booking-modal" aria-hidden="true" role="dialog" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div>
+          <h3 class="modal-title" id="modal-title">Request Consultation</h3>
+          <p class="modal-subtitle">Dr. Payal Chaudhari · Payal's Dental Clinic</p>
+        </div>
+        <button class="modal-close" id="close-modal" aria-label="Close dialog">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+
+      <form class="modal-form" id="appointment-form">
+        <div class="form-group">
+          <label for="patient-name">Patient Name</label>
+          <input type="text" id="patient-name" name="name" placeholder="Your full name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="patient-phone">Phone Number</label>
+          <input type="tel" id="patient-phone" name="phone" placeholder="+91 98765 43210" required>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="pref-date">Preferred Date</label>
+            <input type="date" id="pref-date" name="date" required>
+          </div>
+          <div class="form-group">
+            <label for="pref-slot">Preferred Slot</label>
+            <select id="pref-slot" name="slot" required>
+              <option value="morning">Morning (10:30 AM – 1:00 PM)</option>
+              <option value="evening">Evening (5:00 PM – 8:00 PM)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="concern">Primary Concern / Treatment</label>
+          <select id="concern" name="concern">
+            <option value="checkup">Routine Checkup & Cleaning</option>
+            <option value="root-canal">Toothache / Root Canal Consultation</option>
+            <option value="filling">Cavity Filling / Restoration</option>
+            <option value="cosmetic">Smile Aesthetics / Whitening</option>
+            <option value="other">Other Consultation</option>
+          </select>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary btn-block">Confirm Appointment Request</button>
+        </div>
+        
+        <p class="form-privacy-note">
+          <i data-lucide="lock" class="icon-xs"></i>
+          <span>Your contact details are strictly kept private for clinical scheduling.</span>
+        </p>
+      </form>
+
+      <div class="form-success-message" id="form-success" style="display:none;">
+        <div class="success-icon-wrap">
+          <i data-lucide="check-circle" class="success-icon"></i>
+        </div>
+        <h4>Appointment Requested</h4>
+        <p>Thank you! Our clinic team will call or message your number to confirm your exact appointment timing.</p>
+        <button class="btn btn-secondary mt-3" id="reset-modal-btn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="app.js"></script>
+  <script>
+    // Initialize Lucide Icons
+    if (window.lucide) {
+      window.lucide.createIcons();
+    }
+  </script>
+</body>
+</html>
